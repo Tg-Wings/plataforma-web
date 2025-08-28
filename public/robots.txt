@@ -1,0 +1,30 @@
+# Robots.txt para TalentConnect - Bolsa de Trabajo Perú
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://talentconnect.pe/sitemap.xml
+
+# Crawl-delay para bots específicos
+User-agent: Googlebot
+Crawl-delay: 1
+
+User-agent: Bingbot
+Crawl-delay: 2
+
+# Permitir acceso completo a motores de búsqueda principales
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Slurp
+User-agent: DuckDuckBot
+Allow: /
+
+# Bloquear bots maliciosos
+User-agent: AhrefsBot
+User-agent: MJ12bot
+User-agent: DotBot
+Disallow: /
