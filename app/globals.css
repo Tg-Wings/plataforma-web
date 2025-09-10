@@ -4,40 +4,40 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Actualizando tokens de diseño según el brief profesional */
+  /* Actualizando paleta de colores para Joy Working con esquema naranja pastel apagado #CEC4AE */
   --background: oklch(1 0 0); /* #ffffff - fondo principal limpio */
-  --foreground: oklch(0.205 0 0); /* #1f2937 - texto principal profesional */
-  --card: oklch(0.97 0 0); /* #f1f5f9 - fondo de tarjetas sutil */
+  --foreground: oklch(0.269 0 0); /* #374151 - texto principal profesional */
+  --card: oklch(0.95 0.02 85); /* #faf8f5 - fondo de tarjetas beige pálido */
   --card-foreground: oklch(0.269 0 0); /* #374151 - texto en tarjetas */
   --popover: oklch(1 0 0); /* #ffffff - fondo de popovers */
-  --popover-foreground: oklch(0.205 0 0); /* #1f2937 - texto en popovers */
-  --primary: oklch(0.205 0 0); /* #1f2937 - acciones principales */
-  --primary-foreground: oklch(1 0 0); /* #ffffff - texto en botones primarios */
-  --secondary: oklch(0.556 0 0); /* #6b7280 - acciones secundarias */
-  --secondary-foreground: oklch(1 0 0); /* #ffffff - texto en botones secundarios */
-  --muted: oklch(0.97 0 0); /* #f1f5f9 - elementos silenciados */
+  --popover-foreground: oklch(0.269 0 0); /* #374151 - texto en popovers */
+  --primary: oklch(0.78 0.05 85); /* #CEC4AE - naranja pastel apagado principal */
+  --primary-foreground: oklch(0.269 0 0); /* #374151 - texto en botones primarios */
+  --secondary: oklch(0.85 0.03 85); /* #E5DCC9 - naranja más claro secundario */
+  --secondary-foreground: oklch(0.269 0 0); /* #374151 - texto en botones secundarios */
+  --muted: oklch(0.95 0.02 85); /* #faf8f5 - elementos silenciados */
   --muted-foreground: oklch(0.556 0 0); /* #6b7280 - texto silenciado */
-  --accent: oklch(0.646 0.222 280.116); /* #8b5cf6 - color de acento púrpura */
-  --accent-foreground: oklch(1 0 0); /* #ffffff - texto en elementos de acento */
+  --accent: oklch(0.78 0.05 85); /* #CEC4AE - color de acento naranja pastel */
+  --accent-foreground: oklch(0.269 0 0); /* #374151 - texto en elementos de acento */
   --destructive: oklch(0.577 0.245 27.325); /* #dc2626 - acciones destructivas */
   --destructive-foreground: oklch(1 0 0); /* #ffffff - texto en acciones destructivas */
   --border: oklch(0.922 0 0); /* #e5e7eb - bordes sutiles */
-  --input: oklch(0.97 0 0); /* #f1f5f9 - fondo de inputs */
-  --ring: oklch(0.646 0.222 280.116 / 0.5); /* rgba(139, 92, 246, 0.5) - anillo de foco */
-  --chart-1: oklch(0.556 0 0);
-  --chart-2: oklch(0.646 0.222 280.116);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.577 0.245 27.325);
+  --input: oklch(0.95 0.02 85); /* #faf8f5 - fondo de inputs */
+  --ring: oklch(0.78 0.05 85 / 0.5); /* rgba(206, 196, 174, 0.5) - anillo de foco naranja */
+  --chart-1: oklch(0.78 0.05 85); /* Naranja principal para gráficos */
+  --chart-2: oklch(0.85 0.03 85); /* Naranja claro para gráficos */
+  --chart-3: oklch(0.95 0.02 85); /* Naranja pálido para gráficos */
+  --chart-4: oklch(0.269 0 0); /* Gris oscuro para gráficos */
+  --chart-5: oklch(0.577 0.245 27.325); /* Rojo para gráficos */
   --radius: 0.5rem; /* Radio más sutil para diseño minimalista */
-  --sidebar: oklch(1 0 0);
-  --sidebar-foreground: oklch(0.205 0 0);
-  --sidebar-primary: oklch(0.97 0 0);
-  --sidebar-primary-foreground: oklch(0.269 0 0);
-  --sidebar-accent: oklch(0.646 0.222 280.116);
-  --sidebar-accent-foreground: oklch(1 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.646 0.222 280.116 / 0.5);
+  --sidebar: oklch(0.95 0.02 85); /* Fondo de barra lateral naranja pálido */
+  --sidebar-foreground: oklch(0.269 0 0); /* Texto en barra lateral */
+  --sidebar-primary: oklch(0.78 0.05 85); /* Naranja principal de barra lateral */
+  --sidebar-primary-foreground: oklch(0.269 0 0); /* Texto en color primario de barra lateral */
+  --sidebar-accent: oklch(0.85 0.03 85); /* Naranja claro de acento en barra lateral */
+  --sidebar-accent-foreground: oklch(0.269 0 0); /* Texto en acento de barra lateral */
+  --sidebar-border: oklch(0.922 0 0); /* Bordes de barra lateral */
+  --sidebar-ring: oklch(0.78 0.05 85 / 0.5); /* Anillo de enfoque en barra lateral */
 }
 
 .dark {
@@ -53,8 +53,8 @@
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
   --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.646 0.222 280.116);
-  --accent-foreground: oklch(1 0 0);
+  --accent: oklch(0.78 0.05 85); /* Mantener naranja en modo oscuro */
+  --accent-foreground: oklch(0.269 0 0);
   --destructive: oklch(0.396 0.141 25.723);
   --destructive-foreground: oklch(0.637 0.237 25.331);
   --border: oklch(0.269 0 0);

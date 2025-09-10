@@ -1,11 +1,11 @@
 {
-  "name": "TalentConnect - Bolsa de Trabajo Perú",
-  "short_name": "TalentConnect",
+  "name": "Joy Working - Bolsa de Trabajo Perú",
+  "short_name": "Joy Working",
   "description": "La mejor plataforma de empleos en Perú. Conecta talento con oportunidades laborales excepcionales.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#3b82f6",
+  "theme_color": "#15803d",
   "orientation": "portrait-primary",
   "scope": "/",
   "lang": "es-PE",
@@ -17,14 +17,14 @@
       "sizes": "1280x720",
       "type": "image/jpeg",
       "form_factor": "wide",
-      "label": "TalentConnect Dashboard"
+      "label": "Joy Working Dashboard"
     },
     {
       "src": "/screenshot-narrow.jpg",
       "sizes": "750x1334",
       "type": "image/jpeg",
       "form_factor": "narrow",
-      "label": "TalentConnect Mobile"
+      "label": "Joy Working Mobile"
     }
   ],
   "icons": [

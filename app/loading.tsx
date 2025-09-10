@@ -45,7 +45,7 @@ export default function Loading() {
           <div className="w-16 h-16 bg-primary rounded-xl mx-auto flex items-center justify-center">
             <div className="w-8 h-8 bg-white rounded-lg"></div>
           </div>
-          <h1 className="text-2xl font-semibold text-foreground">TalentConnect</h1>
+          <h1 className="text-2xl font-semibold text-foreground">Joy Working</h1>
           <p className="text-sm text-muted-foreground">Conectando talento con oportunidades</p>
         </div>
 

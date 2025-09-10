@@ -154,10 +154,10 @@ export const demoCompanyProfiles: CompanyProfile[] = [
 // Función para inicializar datos de demostración
 export function initializeDemoData() {
   // Solo inicializar si no hay datos existentes
-  const existingUsers = localStorage.getItem("talentconnect_users") // Corregido nombre de clave
+  const existingUsers = localStorage.getItem("joyworking_users")
   if (!existingUsers) {
-    localStorage.setItem("talentconnect_users", JSON.stringify(demoUsers)) // Corregido nombre de clave
-    localStorage.setItem("talentconnect_candidate_profiles", JSON.stringify(demoCandidateProfiles)) // Corregido nombre de clave
-    localStorage.setItem("talentconnect_company_profiles", JSON.stringify(demoCompanyProfiles)) // Corregido nombre de clave
+    localStorage.setItem("joyworking_users", JSON.stringify(demoUsers))
+    localStorage.setItem("joyworking_candidate_profiles", JSON.stringify(demoCandidateProfiles))
+    localStorage.setItem("joyworking_company_profiles", JSON.stringify(demoCompanyProfiles))
   }
 }

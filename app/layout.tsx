@@ -6,7 +6,7 @@ import type React from "react"
 import ClientLayout from "./client-layout"
 
 export const metadata: Metadata = {
-  title: "TalentConnect - Bolsa de Trabajo Perú | Empleos y Oportunidades Laborales",
+  title: "Joy Working - Bolsa de Trabajo Perú | Empleos y Oportunidades Laborales",
   description:
     "La mejor plataforma de empleos en Perú. Encuentra trabajo, conecta talento con empresas. Bolsa de trabajo profesional para Lima, Arequipa, Trujillo y todo el Perú. Empleos remotos, presenciales y freelance.",
   keywords: [
@@ -41,15 +41,15 @@ export const metadata: Metadata = {
     "trabajo chile",
     "empleos bolivia",
   ],
-  authors: [{ name: "TalentConnect" }],
-  creator: "TalentConnect",
-  publisher: "TalentConnect",
+  authors: [{ name: "Joy Working" }],
+  creator: "Joy Working",
+  publisher: "Joy Working",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://talentconnect.pe"),
+  metadataBase: new URL("https://joyworking.pe"),
   alternates: {
     canonical: "/",
     languages: {
@@ -59,17 +59,17 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "TalentConnect - La Mejor Bolsa de Trabajo en Perú",
+    title: "Joy Working - La Mejor Bolsa de Trabajo en Perú",
     description:
       "Conecta con las mejores oportunidades laborales en Perú. Plataforma profesional de empleos para candidatos y empresas. ¡Encuentra tu trabajo ideal hoy!",
-    url: "https://talentconnect.pe",
-    siteName: "TalentConnect",
+    url: "https://joyworking.pe",
+    siteName: "Joy Working",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "TalentConnect - Bolsa de Trabajo Perú",
+        alt: "Joy Working - Bolsa de Trabajo Perú",
       },
     ],
     locale: "es_PE",
@@ -77,11 +77,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "TalentConnect - Bolsa de Trabajo Perú",
+    title: "Joy Working - Bolsa de Trabajo Perú",
     description:
       "La plataforma líder de empleos en Perú. Conecta talento excepcional con oportunidades laborales únicas.",
     images: ["/twitter-image.jpg"],
-    creator: "@TalentConnectPE",
+    creator: "@JoyWorkingPE",
   },
   robots: {
     index: true,
@@ -101,8 +101,8 @@ export const metadata: Metadata = {
   },
   category: "employment",
   classification: "Business",
-  generator: "TalentConnect PWA",
-  applicationName: "TalentConnect",
+  generator: "Joy Working PWA",
+  applicationName: "Joy Working",
   referrer: "origin-when-cross-origin",
   colorScheme: "light dark",
   themeColor: [
@@ -118,7 +118,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "TalentConnect",
+    title: "Joy Working",
   },
   manifest: "/manifest.json",
   icons: {
@@ -143,7 +143,7 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="TalentConnect" />
+        <meta name="apple-mobile-web-app-title" content="Joy Working" />
         <meta name="msapplication-TileColor" content="#3b82f6" />
         <meta name="msapplication-config" content="/browserconfig.xml" />
         <meta name="theme-color" content="#ffffff" />
@@ -161,20 +161,20 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "TalentConnect",
-              alternateName: "TalentConnect Perú",
-              url: "https://talentconnect.pe",
+              name: "Joy Working",
+              alternateName: "Joy Working Perú",
+              url: "https://joyworking.pe",
               description: "La mejor plataforma de empleos en Perú. Conecta talento con oportunidades laborales.",
               potentialAction: {
                 "@type": "SearchAction",
-                target: "https://talentconnect.pe/buscar?q={search_term_string}",
+                target: "https://joyworking.pe/buscar?q={search_term_string}",
                 "query-input": "required name=search_term_string",
               },
               sameAs: [
-                "https://facebook.com/talentconnectpe",
-                "https://twitter.com/talentconnectpe",
-                "https://linkedin.com/company/talentconnectpe",
-                "https://instagram.com/talentconnectpe",
+                "https://facebook.com/joyworkingpe",
+                "https://twitter.com/joyworkingpe",
+                "https://linkedin.com/company/joyworkingpe",
+                "https://instagram.com/joyworkingpe",
               ],
               contactPoint: {
                 "@type": "ContactPoint",

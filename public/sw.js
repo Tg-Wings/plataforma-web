@@ -1,5 +1,5 @@
-// Service Worker para TalentConnect PWA
-const CACHE_NAME = "talentconnect-v1.0.0"
+// Service Worker para Joy Working PWA
+const CACHE_NAME = "joyworking-v1.0.0"
 const urlsToCache = [
   "/",
   "/login",
@@ -74,7 +74,7 @@ self.addEventListener("push", (event) => {
     ],
   }
 
-  event.waitUntil(self.registration.showNotification("TalentConnect", options))
+  event.waitUntil(self.registration.showNotification("Joy Working", options))
 })
 
 // Click en notificación

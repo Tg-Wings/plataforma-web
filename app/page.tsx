@@ -79,8 +79,7 @@ export default function HomePage() {
           </CardHeader>
           <CardContent className="text-center space-y-4">
             <p className="text-muted-foreground">
-              TalentConnect incluye mensajes de bienvenida con voz. ¿Deseas permitir el audio para una mejor
-              experiencia?
+              Joy Working incluye mensajes de bienvenida con voz. ¿Deseas permitir el audio para una mejor experiencia?
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Button onClick={() => handleAudioPermission(true)} className="flex-1">
@@ -105,7 +104,7 @@ export default function HomePage() {
             <div className="w-12 h-12 bg-accent rounded-xl flex items-center justify-center">
               <Briefcase className="h-7 w-7 text-white" />
             </div>
-            <h1 className="text-3xl font-bold text-foreground">TalentConnect</h1>
+            <h1 className="text-3xl font-bold text-foreground">Joy Working</h1>
           </div>
 
           {/* Barra de progreso */}
@@ -152,7 +151,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Briefcase className="h-6 w-6 md:h-8 md:w-8 text-accent" />
-              <h1 className="text-lg md:text-2xl font-bold text-foreground">TalentConnect</h1>
+              <h1 className="text-lg md:text-2xl font-bold text-foreground">Joy Working</h1>
             </div>
             <div className="flex items-center space-x-2">
               <nav className="hidden lg:flex space-x-4 mr-4">
@@ -161,6 +160,9 @@ export default function HomePage() {
                 </Link>
                 <Link href="/descargar" className="text-sm text-muted-foreground hover:text-foreground">
                   Descargar
+                </Link>
+                <Link href="/mapa-trabajos" className="text-sm text-muted-foreground hover:text-foreground">
+                  Mapa de Trabajos
                 </Link>
               </nav>
               <Button
@@ -181,6 +183,9 @@ export default function HomePage() {
 
       <section className="py-12 md:py-20 px-4">
         <div className="container mx-auto text-center max-w-4xl">
+          <div className="mb-6 md:mb-8">
+            <h1 className="text-2xl md:text-3xl font-bold text-accent mb-2">¡Bienvenidos a Joy Working!</h1>
+          </div>
           <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold text-foreground mb-4 md:mb-6 text-balance leading-tight">
             Conecta Talento con Oportunidades
           </h2>
@@ -226,7 +231,7 @@ export default function HomePage() {
       <section className="py-12 md:py-16 px-4 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-foreground">
-            ¿Por qué elegir TalentConnect?
+            ¿Por qué elegir Joy Working?
           </h3>
           <div className="grid gap-6 md:grid-cols-3 md:gap-8">
             <Card className="text-center">
@@ -291,7 +296,7 @@ export default function HomePage() {
           <div className="space-y-4">
             <h3 className="text-xl md:text-2xl font-bold text-foreground">¿Listo para comenzar?</h3>
             <p className="text-muted-foreground text-sm md:text-base">
-              Únete a TalentConnect y descubre nuevas oportunidades
+              Únete a Joy Working y descubre nuevas oportunidades
             </p>
             <div className="flex flex-col gap-3 justify-center max-w-sm mx-auto md:max-w-none md:flex-row md:gap-4">
               <Button size="lg" className="w-full md:w-auto" asChild>
@@ -316,7 +321,7 @@ export default function HomePage() {
           <div className="flex flex-col items-center space-y-4 md:flex-row md:justify-between md:space-y-0">
             <div className="flex items-center space-x-2">
               <Briefcase className="h-5 w-5 md:h-6 md:w-6 text-accent" />
-              <span className="font-semibold text-sm md:text-base">TalentConnect</span>
+              <span className="font-semibold text-sm md:text-base">Joy Working</span>
             </div>
             <nav className="flex space-x-4 md:space-x-6">
               <Link href="/acerca" className="text-xs md:text-sm text-muted-foreground hover:text-foreground">
@@ -325,9 +330,12 @@ export default function HomePage() {
               <Link href="/descargar" className="text-xs md:text-sm text-muted-foreground hover:text-foreground">
                 Descargar
               </Link>
+              <Link href="/mapa-trabajos" className="text-xs md:text-sm text-muted-foreground hover:text-foreground">
+                Mapa de Trabajos
+              </Link>
             </nav>
             <p className="text-xs md:text-sm text-muted-foreground text-center">
-              © 2024 TalentConnect. Conectando talento con oportunidades.
+              © 2024 Joy Working. Conectando talento con oportunidades.
             </p>
           </div>
         </div>

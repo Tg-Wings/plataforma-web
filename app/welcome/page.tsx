@@ -34,7 +34,7 @@ export default function WelcomePage() {
     const speakWelcome = () => {
       if ("speechSynthesis" in window) {
         const welcomeText =
-          "Bienvenido a TalentConnect, tu bolsa de trabajo efectiva. Conectamos el mejor talento con las mejores oportunidades laborales. Encuentra tu próximo empleo o el candidato perfecto para tu empresa."
+          "Bienvenido a Joy Working, tu bolsa de trabajo efectiva. Conectamos el mejor talento con las mejores oportunidades laborales. Encuentra tu próximo empleo o el candidato perfecto para tu empresa."
         const utterance = new SpeechSynthesisUtterance(welcomeText)
         utterance.lang = "es-ES"
         utterance.rate = 0.8
@@ -106,7 +106,7 @@ export default function WelcomePage() {
 
         {/* Título ultra minimalista */}
         <div className="space-y-2">
-          <h1 className="text-3xl font-light text-slate-800 tracking-wide">TalentConnect</h1>
+          <h1 className="text-3xl font-light text-slate-800 tracking-wide">Joy Working</h1>
           <p className="text-slate-500 font-light text-sm tracking-wider uppercase">Conectando talento</p>
         </div>
 

@@ -42,10 +42,10 @@ export interface WorkExperience {
 }
 
 class AuthService {
-  private readonly USERS_KEY = "talentconnect_users"
-  private readonly CURRENT_USER_KEY = "talentconnect_current_user"
-  private readonly CANDIDATE_PROFILES_KEY = "talentconnect_candidate_profiles"
-  private readonly COMPANY_PROFILES_KEY = "talentconnect_company_profiles"
+  private readonly USERS_KEY = "joyworking_users"
+  private readonly CURRENT_USER_KEY = "joyworking_current_user"
+  private readonly CANDIDATE_PROFILES_KEY = "joyworking_candidate_profiles"
+  private readonly COMPANY_PROFILES_KEY = "joyworking_company_profiles"
 
   // Gestión de usuarios
   getUsers(): User[] {
